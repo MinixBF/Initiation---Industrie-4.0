@@ -37,7 +37,12 @@ Le code Arduino est disponible sur le dépôt GitHub du projet. Nous avons ensui
 
 ### Étape 3 : Envoi des données
 
-Nous avons ensuite testé le code en affichant les données en local, puis une fois le code fonctionnel, on a pu envoyer les données sur le serveur MQTT distant.
+Pour commencer nous avons envoyer les premières données sur un webServer hébergé en local avec la bibliothèque ESP8266WebServer.h. Pour l'hébergé sur un réseau local, nous avons utilisé la bibliothèque ESP8266WiFi.h.
+Une petite interface web réalisé en HTML et CSS a été créé pour afficher les données.
+
+![Web Server Interface](images/web_server_interface.png)
+
+De plus nous avons testé le code en affichant les données en local, puis une fois le code fonctionnel, on a pu envoyer les données sur le serveur MQTT distant.
 Pour envoyer les données sur le serveur MQTT, nous avons utilisé le logiciel MQTT.fx. Nous avons ensuite créé un topic sur le serveur MQTT et envoyé les données sur ce topic. Nous avons ensuite utilisé Node-RED pour récupérer les données du serveur MQTT et les afficher sur un dashboard.
 Pour débugger la réception MQTT, nous avons utilisé le logiciel MQTT Explorer.
 
