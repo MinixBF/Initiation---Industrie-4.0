@@ -7,14 +7,14 @@ Ce rapport a pour but de récapituler les différentes étapes de la réalisatio
 - [Introduction](#introduction)
 - [Présentation du matériel](#présentation-du-matériel)
 - [Étapes de réalisation](#étapes-de-réalisation)
-    - [Étape 1 : Connexion à l'Arduino](#étape-1-connexion-à-larduino)
-    - [Étape 2 : Création du code Arduino](#étape-2-création-du-code-arduino)
-    - [Étape 3 : Envoi des données](#étape-3-envoi-des-données)
-    - [Étape 4 : Utilisation de Node-RED](#étape-4-utilisation-de-node-red)
-    - [Étape 5 : Création d'un dashboard](#étape-5-création-dun-dashboard)
-    - [Étape 6 : Ajout de SparkPlugB](#étape-6-ajout-de-sparkplugb)
-    - [Étape 7 : Visualisation sur Ignition](#étape-7-visualisation-sur-ignition)
-- [Résultats & conclusion](#résultats-conclusion)
+    - [Étape 1 : Connexion à l'Arduino](#étape-1--connexion-à-larduino)
+    - [Étape 2 : Création du code Arduino](#étape-2--création-du-code-arduino)
+    - [Étape 3 : Envoi des données](#étape-3--envoi-des-données)
+    - [Étape 4 : Utilisation de Node-RED](#étape-4--utilisation-de-node-red)
+    - [Étape 5 : Création d'un dashboard](#étape-5--création-dun-dashboard)
+    - [Étape 6 : Ajout de SparkPlugB](#étape-6--ajout-de-sparkplugb)
+    - [Étape 7 : Visualisation sur Ignition](#étape-7--visualisation-sur-ignition)
+- [Résultats & conclusion](#résultats--conclusion)
 
 ## Présentation du matériel
 
