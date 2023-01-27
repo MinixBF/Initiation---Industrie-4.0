@@ -41,7 +41,7 @@ Nous avons ensuite testé le code en affichant les données en local, puis une f
 Pour envoyer les données sur le serveur MQTT, nous avons utilisé le logiciel MQTT.fx. Nous avons ensuite créé un topic sur le serveur MQTT et envoyé les données sur ce topic. Nous avons ensuite utilisé Node-RED pour récupérer les données du serveur MQTT et les afficher sur un dashboard.
 Pour débugger la réception MQTT, nous avons utilisé le logiciel MQTT Explorer.
 
-![MQTT Explorer](src/images/MQTT_Explorer_1.png)
+![MQTT Explorer](images/MQTT_Explorer_1.png)
 
 ### Étape 4 : Utilisation de Node-RED
 
@@ -50,7 +50,7 @@ Nous avons ensuite utilisé Node-RED pour récupérer les données du serveur MQ
 - Utiliser le bloc JSON pour récupérer les données du JSON
 - Utiliser le bloc Debug pour afficher les données en local
 
-![Flux Node-RED](src/images/flux.png)
+![Flux Node-RED](images/Flux.png)
 
 ### Étape 5 : Création d'un dashboard
 
@@ -62,7 +62,7 @@ Nous avons eu besoin d'ajouter la bibliothèque `node-red-dashboard` pour pouvoi
 Nous avons ensuite ajouté le protocole SparkPlugB pour envoyer les données sur le serveur MQTT. Nous avons utilisé le bloc MQTT out pour envoyer les données sur le serveur MQTT. Ensuite, le bloc fonction a été ajouté pour combiner et transformer les données en format SparkPlugB.
 Le flux est maintenant fonctionnel et les données sont visibles sur un nouveau broker sur le serveur MQTT, visible via MQTT Explorer.
 
-![Flux Node-RED](src/images/MQTT_Explorer_2.png)
+![MQTT Explorer](images/MQTT_Explorer_2.png)
 
 ### Étape 7 : Visualisation sur Ignition
 
